@@ -10,8 +10,8 @@
 	git="git://github.com/brucelane/Cinder-AbletonLink.git"
 	>
 	<includePath>include</includePath>
-	<includePath>lib/asio/asio/include</includePath>
-	<includePath>lib/catch/include</includePath>
+	<includePath>lib/link/modules/asio-standalone/asio/include</includePath>
+	<includePath>lib/link/modules/catch/include</includePath>
 	<includePath>lib/link/include</includePath>
 	<includePath>lib/link/include/ableton</includePath>
 	<includePath>lib/link/include/ableton/platforms</includePath>
@@ -20,6 +20,8 @@
 	<includePath>lib/ASIOSDK2.3/common</includePath>
 	<includePath>lib/ASIOSDK2.3/common/host</includePath>
 	<includePath>lib/ASIOSDK2.3/common/host/pc</includePath>
+	<includePath>lib/ASIOSDK2.3/host</includePath>
+	<includePath>lib/ASIOSDK2.3/host/pc</includePath>
 	<header>lib/link/include/ableton/platforms/Config.hpp</header>
 	<header>lib/link/include/ableton/platforms/asio/AsioTimer.hpp</header>
 	<source>lib/ASIOSDK2.3/common/asio.cpp</source>
