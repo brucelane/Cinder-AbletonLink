@@ -10,6 +10,10 @@
 	git="git://github.com/brucelane/Cinder-AbletonLink.git"
 	>
 	<includePath>include</includePath>
+	<includePath>lib/asio/asio/include/asio</includePath>
+	<includePath>lib/catch/include</includePath>
+	<includePath>lib/link/include/ableton</includePath>
+
 </block>
 <template>templates/AbletonLink/template.xml</template>
 </cinder>
