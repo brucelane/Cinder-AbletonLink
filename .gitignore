@@ -1,0 +1,8 @@
+# mac and windows
+.DS_Store
+Thumbs.db
+
+# Executables
+*.exe
+*.out
+*.app

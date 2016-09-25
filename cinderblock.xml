@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="Ableton Link"
+	id="fr.batchass.abletonlink"
+	author="Bruce Lane"
+	license="MIT"
+	summary="Ableton Link block for Cinder"
+	url="https://github.com/brucelane/Cinder-AbletonLink"
+	git="git://github.com/brucelane/Cinder-AbletonLink.git"
+	>
+	<includePath>include</includePath>
+</block>
+<template>templates/AbletonLink/template.xml</template>
+</cinder>

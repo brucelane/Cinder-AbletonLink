@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<template name="AbletonLink: Basic" parent="org.libcinder.apptemplates.basicopengl">
+	<requires>fr.batchass.abletonlink</requires>
+	<source replaceContents="true" replaceName="true">src/_TBOX_PREFIX_App.cpp</source>
+	<asset>assets/Ableton_Link_Badge-Black.png</asset>
+	<asset>assets/Ableton_Link_Badge-White.png</asset>
+	<asset>assets/Ableton_Link_Button_disabled.png</asset>
+	<asset>assets/Ableton_Link_Button_enabled.png</asset>
+</template>
+</cinder>
