@@ -12,6 +12,7 @@ Ableton Link
 #include "cinder/ImageIo.h"
 #include "cinder/gl/Texture.h"
 #include <vector>
+#include "Link.hpp"
 
 using namespace ci;
 using namespace ci::app;
