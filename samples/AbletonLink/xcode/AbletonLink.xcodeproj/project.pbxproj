@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006D720419952D00008149E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006D720219952D00008149E2 /* AVFoundation.framework */; };
+		006D720519952D00008149E2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006D720319952D00008149E2 /* CoreMedia.framework */; };
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		00B9955A1B128DF400A5C623 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995581B128DF400A5C623 /* IOKit.framework */; };
+		00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995591B128DF400A5C623 /* IOSurface.framework */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		758F8C4264D4487BB54EC702 /* asiolist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C753773FAA644B23A44DFE73 /* asiolist.cpp */; };
+		43F38B8184DD46D39E7829D2 /* asiodrivers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82ED6370EC5C4EC6B85EE588 /* asiodrivers.cpp */; };
+		4F01E873ED2A4D199B7B1245 /* asio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D8251682048D1A6BCEC9A /* asio.cpp */; };
+		9C81A9CD4E184545BC394052 /* AsioTimer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FDB7BB58FC8C4152A27EDFB6 /* AsioTimer.hpp */; };
+		E4EEDD75A26C40BF8432C0CF /* Config.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F993D3761E0D4668AAA9AD5B /* Config.hpp */; };
+		826D9D417ACB41F8ABD00B78 /* AbletonLinkApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2776694C6B342D791CE45F0 /* AbletonLinkApp.cpp */; };
+		59EA8EC413774A7B8048DC91 /* AbletonLink_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 19F67A8EC58943D98D0BC218 /* AbletonLink_Prefix.pch */; };
+		AA03C81EEBB245618EF8A430 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6B78D7E1B78A407C87BBF8C4 /* CinderApp.icns */; };
+		0C114EFB224D4E2D856A5AD9 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 31483F792D734C97BB5585D8 /* Resources.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006D720219952D00008149E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		006D720319952D00008149E2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		00B995581B128DF400A5C623 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		00B995591B128DF400A5C623 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* AbletonLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbletonLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31483F792D734C97BB5585D8 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
+		6B78D7E1B78A407C87BBF8C4 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
+		966693D9770940F29393CA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
+		19F67A8EC58943D98D0BC218 /* AbletonLink_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = AbletonLink_Prefix.pch; sourceTree = "<group>"; name = AbletonLink_Prefix.pch; };
+		E2776694C6B342D791CE45F0 /* AbletonLinkApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/AbletonLinkApp.cpp; sourceTree = "<group>"; name = AbletonLinkApp.cpp; };
+		F993D3761E0D4668AAA9AD5B /* Config.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = ../../../lib/link/include/ableton/platforms/Config.hpp; sourceTree = "<group>"; name = Config.hpp; };
+		FDB7BB58FC8C4152A27EDFB6 /* AsioTimer.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = ../../../lib/link/include/ableton/platforms/asio/AsioTimer.hpp; sourceTree = "<group>"; name = AsioTimer.hpp; };
+		0F6D8251682048D1A6BCEC9A /* asio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../lib/ASIOSDK2.3/common/asio.cpp; sourceTree = "<group>"; name = asio.cpp; };
+		82ED6370EC5C4EC6B85EE588 /* asiodrivers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../lib/ASIOSDK2.3/host/asiodrivers.cpp; sourceTree = "<group>"; name = asiodrivers.cpp; };
+		C753773FAA644B23A44DFE73 /* asiolist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../lib/ASIOSDK2.3/host/pc/asiolist.cpp; sourceTree = "<group>"; name = asiolist.cpp; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006D720419952D00008149E2 /* AVFoundation.framework in Frameworks */,
+				006D720519952D00008149E2 /* CoreMedia.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+				00B9955A1B128DF400A5C623 /* IOKit.framework in Frameworks */,
+				00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E2776694C6B342D791CE45F0 /* AbletonLinkApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				006D720219952D00008149E2 /* AVFoundation.framework */,
+				006D720319952D00008149E2 /* CoreMedia.framework */,
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				00B995581B128DF400A5C623 /* IOKit.framework */,
+				00B995591B128DF400A5C623 /* IOSurface.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* AbletonLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* AbletonLink */ = {
+			isa = PBXGroup;
+			children = (
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = AbletonLink;
+			sourceTree = "<group>";
+		};
+		5172AB2D28954793A18503A2 /* asio */ = {
+			isa = PBXGroup;
+			children = (
+				FDB7BB58FC8C4152A27EDFB6 /* AsioTimer.hpp */,
+			);
+			name = asio;
+			sourceTree = "<group>";
+		};
+		ED8DA5C9E5234B7D91347049 /* platforms */ = {
+			isa = PBXGroup;
+			children = (
+				F993D3761E0D4668AAA9AD5B /* Config.hpp */,
+				5172AB2D28954793A18503A2 /* asio */,
+			);
+			name = platforms;
+			sourceTree = "<group>";
+		};
+		E7ED796A94BF4256869C92A8 /* ableton */ = {
+			isa = PBXGroup;
+			children = (
+				ED8DA5C9E5234B7D91347049 /* platforms */,
+			);
+			name = ableton;
+			sourceTree = "<group>";
+		};
+		DC179BB0450141F382C9D5BE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E7ED796A94BF4256869C92A8 /* ableton */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		B839493D41CD41D3A5FF3B01 /* link */ = {
+			isa = PBXGroup;
+			children = (
+				DC179BB0450141F382C9D5BE /* include */,
+			);
+			name = link;
+			sourceTree = "<group>";
+		};
+		1C3DD7D1AD0E435A86CFDE3A /* common */ = {
+			isa = PBXGroup;
+			children = (
+				0F6D8251682048D1A6BCEC9A /* asio.cpp */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		1CE1BFF1CDE248D1A4EB4076 /* pc */ = {
+			isa = PBXGroup;
+			children = (
+				C753773FAA644B23A44DFE73 /* asiolist.cpp */,
+			);
+			name = pc;
+			sourceTree = "<group>";
+		};
+		C8CB09FE748C4226AAA655FA /* host */ = {
+			isa = PBXGroup;
+			children = (
+				82ED6370EC5C4EC6B85EE588 /* asiodrivers.cpp */,
+				1CE1BFF1CDE248D1A4EB4076 /* pc */,
+			);
+			name = host;
+			sourceTree = "<group>";
+		};
+		5C40F6F6E08E4F2DB431E5A7 /* ASIOSDK2.3 */ = {
+			isa = PBXGroup;
+			children = (
+				1C3DD7D1AD0E435A86CFDE3A /* common */,
+				C8CB09FE748C4226AAA655FA /* host */,
+			);
+			name = ASIOSDK2.3;
+			sourceTree = "<group>";
+		};
+		AF151776062F4906AE984DDB /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B839493D41CD41D3A5FF3B01 /* link */,
+				5C40F6F6E08E4F2DB431E5A7 /* ASIOSDK2.3 */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		96C190C5A8234177A39EB56C /* Ableton Link */ = {
+			isa = PBXGroup;
+			children = (
+				AF151776062F4906AE984DDB /* lib */,
+			);
+			name = "Ableton Link";
+			sourceTree = "<group>";
+		};
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				96C190C5A8234177A39EB56C /* Ableton Link */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				31483F792D734C97BB5585D8 /* Resources.h */,
+				19F67A8EC58943D98D0BC218 /* AbletonLink_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B78D7E1B78A407C87BBF8C4 /* CinderApp.icns */,
+				966693D9770940F29393CA42 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* AbletonLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "AbletonLink" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbletonLink;
+			productInstallPath = "$(HOME)/Applications";
+			productName = AbletonLink;
+			productReference = 8D1107320486CEB800E47090 /* AbletonLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AbletonLink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* AbletonLink */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* AbletonLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA03C81EEBB245618EF8A430 /* CinderApp.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826D9D417ACB41F8ABD00B78 /* AbletonLinkApp.cpp in Sources */,
+				4F01E873ED2A4D199B7B1245 /* asio.cpp in Sources */,
+				43F38B8184DD46D39E7829D2 /* asiodrivers.cpp in Sources */,
+				758F8C4264D4487BB54EC702 /* asiolist.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AbletonLink_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libcinder.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = AbletonLink;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AbletonLink_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libcinder.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = AbletonLink;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CINDER_PATH = "../../../../..";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				ENABLE_TESTABILITY = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/include\" ../include",
+					../../../include,
+					"\"../../../lib/link/modules/asio-standalone/asio/include\"",
+					../../../lib/link/modules/catch/include,
+					../../../lib/link/include,
+					../../../lib/link/include/ableton,
+					../../../lib/link/include/ableton/platforms,
+					../../../lib/link/include/ableton/platforms/asio,
+					../../../lib/link/include/ableton/platforms/windows,
+					../../../lib/ASIOSDK2.3/common,
+					../../../lib/ASIOSDK2.3/common/host,
+					../../../lib/ASIOSDK2.3/common/host/pc,
+					../../../lib/ASIOSDK2.3/host,
+					../../../lib/ASIOSDK2.3/host/pc,
+				);
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CINDER_PATH = "../../../../..";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/include\" ../include",
+					../../../include,
+					"\"../../../lib/link/modules/asio-standalone/asio/include\"",
+					../../../lib/link/modules/catch/include,
+					../../../lib/link/include,
+					../../../lib/link/include/ableton,
+					../../../lib/link/include/ableton/platforms,
+					../../../lib/link/include/ableton/platforms/asio,
+					../../../lib/link/include/ableton/platforms/windows,
+					../../../lib/ASIOSDK2.3/common,
+					../../../lib/ASIOSDK2.3/common/host,
+					../../../lib/ASIOSDK2.3/common/host/pc,
+					../../../lib/ASIOSDK2.3/host,
+					../../../lib/ASIOSDK2.3/host/pc,
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "AbletonLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AbletonLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,88 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{F92B24C1-AD33-4FD6-9BDD-29A508F6CE6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link">
+      <UniqueIdentifier>{F9C781B1-5F9C-4858-9497-2BDB9092560A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib">
+      <UniqueIdentifier>{1D764089-4DAF-4D56-A481-552AB5AD1C1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\link">
+      <UniqueIdentifier>{65BE353B-4070-4178-9600-28136CEFCD87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\link\include">
+      <UniqueIdentifier>{FD63CAE1-7017-4574-98B5-8B1703EC91AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\link\include\ableton">
+      <UniqueIdentifier>{EF71FEAD-379A-47F6-AD13-572C160DC2CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\link\include\ableton\platforms">
+      <UniqueIdentifier>{68273D9D-65D9-4FFB-9E23-EA93988035B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\link\include\ableton\platforms\asio">
+      <UniqueIdentifier>{7371A0EC-C7C6-4E11-9E30-69CB5BC8B218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\ASIOSDK2.3">
+      <UniqueIdentifier>{D8BB9B39-1D5A-4A50-9FA1-C1D92E567710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\ASIOSDK2.3\common">
+      <UniqueIdentifier>{800E0699-5FFE-4488-963C-D95CFB57D98A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\ASIOSDK2.3\host">
+      <UniqueIdentifier>{7FA29FAD-59FA-45E7-830A-A2A1487FDCE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\ASIOSDK2.3\host\pc">
+      <UniqueIdentifier>{4F0FC83A-DDF6-40C2-8981-4221B49130F7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\AbletonLinkApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\AbletonLinkApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\lib\link\include\ableton\platforms\Config.hpp">
+      <Filter>Blocks\Ableton Link\lib\link\include\ableton\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\link\include\ableton\platforms\asio\AsioTimer.hpp">
+      <Filter>Blocks\Ableton Link\lib\link\include\ableton\platforms\asio</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\lib\ASIOSDK2.3\common\asio.cpp">
+      <Filter>Blocks\Ableton Link\lib\ASIOSDK2.3\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\ASIOSDK2.3\host\asiodrivers.cpp">
+      <Filter>Blocks\Ableton Link\lib\ASIOSDK2.3\host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\ASIOSDK2.3\host\pc\asiolist.cpp">
+      <Filter>Blocks\Ableton Link\lib\ASIOSDK2.3\host\pc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
